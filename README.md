@@ -1,6 +1,7 @@
 # T480-OpenCore-Hackintosh
 
-**Status: Working In Progress**
+**Status: Unmaintained**
+Sorry that I'm quite busy these day so I'm not able to maintain this project. Fortunaly, [EETagent](https://github.com/EETagent) has forked and seem actively maintaining it. So please go to [His repository](https://github.com/EETagent/T480-OpenCore-Hackintosh) for better EFI.
 
 ## Knowning Issue:
 - Trackpad it not perfectly smooth (If you known how to implement better Trackpad / Trackpoint please create an issue or pull request)
