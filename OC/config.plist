@@ -578,24 +578,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>AppleBacklightSmoother.kext</string>
-				<key>Comment</key>
-				<string>Smooth backlight</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AppleBacklightSmoother</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>17.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 			<!-- / Essential kernel extensions -->
 			<!-- Hibernation -->
 			<dict>
@@ -1122,6 +1104,8 @@
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -1159,6 +1143,10 @@
 			<!-- <string>Default</string> -->
 			<key>HideAuxiliary</key>
 			<false/>
+			<key>LauncherOption</key>
+			<string>Full</string>
+			<key>LauncherPath</key>
+			<string>Default</string>
 			<key>PickerAttributes</key>
 			<integer>1</integer>
 			<key>PickerAudioAssist</key>
@@ -1236,8 +1224,6 @@
 			<string>Optional</string>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
-			<key>BootProtect</key>
-			<string>Bootstrap</string>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -1327,6 +1313,8 @@
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
@@ -1352,6 +1340,8 @@
 		<true/>
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
+		<key>UseRawUuidEncoding</key>
+		<false/>
 		<key>CustomMemory</key>
 		<false/>
 	</dict>
@@ -1381,6 +1371,8 @@
 			<integer>50</integer>
 			<key>PlayChime</key>
 			<string>Enabled</string>
+			<key>ResetTrafficClass</key>
+			<false/>
 			<key>VolumeAmplifier</key>
 			<integer>143</integer>
 			<key>SetupDelay</key>
@@ -1390,8 +1382,6 @@
 		<dict>
 			<key>KeyForgetThreshold</key>
 			<integer>5</integer>
-			<key>KeyMergeThreshold</key>
-			<integer>2</integer>
 			<key>KeySupport</key>
 			<true/>
 			<key>KeySupportMode</key>
@@ -1422,6 +1412,8 @@
 			<key>ProvideConsoleGop</key>
 			<true/>
 			<key>DirectGopRendering</key>
+			<false/>
+			<key>GopPassThrough</key>
 			<false/>
 			<key>ForceResolution</key>
 			<false/>
@@ -1475,6 +1467,10 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>ActivateHpetSupport</key>
+			<false/>
+			<key>DisableSecurityPolicy</key>
+			<false/>			
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
