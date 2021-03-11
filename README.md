@@ -4,10 +4,10 @@
 
 <img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.7-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
 [![macOS-Stable](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/)
-[![macOS-Unstable](https://img.shields.io/badge/macOS-11.1-brightgreen.svg)](https://www.apple.com/macos/big-sur)
+[![macOS-Unstable](https://img.shields.io/badge/macOS-11.2.2-brightgreen.svg)](https://www.apple.com/macos/big-sur)
 
 **DISCLAIMER:**
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.
@@ -56,8 +56,8 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | Component      | Version        |
 | -------------- | -------------- |
 | macOS Catalina | 10.15.7 (19H2) |
-| macOS Big Sur  | 11.1 (20C69)   |
-| OpenCore       | v0.6.5         |
+| macOS Big Sur  | 11.2.2 (20D80) |
+| OpenCore       | v0.6.7         |
 
 </details>
 
@@ -68,9 +68,8 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 | Kext                   | Version        |
 |:---------------------- | -------------- |
-| AirportItlwm           | 1.2.0          |
-| AppleALC               | 1.5.6          |
-| AppleBacklightSmoother | 1.0.2          |
+| AirportItlwm           | 1.3.0          |
+| AppleALC               | 1.5.8          |
 | BrightnessKeys         | 1.0.1          |
 | CPUFriend              | 1.2.3          |
 | CPUFriendDataProvider  | i5-8250U       |
@@ -83,13 +82,13 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | NoTouchID              | 1.0.4          |
 | NVMeFix                | 1.0.5          |
 | RTCMemoryFixup         | 1.0.8          |
-| VirtualSMC             | 1.2.0          |
+| VirtualSMC             | 1.2.1          |
 | VoltageShift           | Disabled, 1.22 |
-| VoodooPS2Controller    | 2.2.0          |
-| VoodooRMI              | 1.3.0          |
+| VoodooPS2Controller    | 2.2.2          |
+| VoodooRMI              | 1.3.2          |
 | VoodooSMBus            | 3.0.0          |
-| WhateverGreen          | 1.4.6          |
-| YogaSMC                | 1.4.1          |
+| WhateverGreen          | 1.4.8          |
+| YogaSMC                | 1.4.3          |
 
 </details>
 <details>
@@ -99,10 +98,10 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 | Driver          | Version           |
 |:---------------:| ----------------- |
-| AudioDxe.efi    | OpenCorePkg 0.6.5 |
+| AudioDxe.efi    | OpenCorePkg 0.6.7 |
 | HfsPlus.efi     | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.6.5 |
-| OpenRuntime.efi | OpenCorePkg 0.6.5 |
+| OpenCanopy.efi  | OpenCorePkg 0.6.7 |
+| OpenRuntime.efi | OpenCorePkg 0.6.7 |
 </details>
 
 <details>
