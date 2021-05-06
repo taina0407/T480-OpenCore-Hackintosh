@@ -69,25 +69,25 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | Kext                   | Version        |
 |:---------------------- | -------------- |
 | AirportItlwm           | 1.3.0          |
-| AppleALC               | 1.5.8          |
+| AppleALC               | 1.6.0          |
 | BrightnessKeys         | 1.0.1          |
 | CPUFriend              | 1.2.3          |
 | CPUFriendDataProvider  | i5-8250U       |
-| HibernationFixup       | 1.3.9          |
+| HibernationFixup       | 1.4.0          |
 | HoRNDIS                | Disabled, 9.2  |
 | IntelBluetoothFirmware | 1.1.2          |
 | IntelBluetoothInjector | 1.1.2          |
-| IntelMausi             | 1.0.5          |
-| Lilu                   | 1.5.1          |
+| IntelMausi             | 1.0.6          |
+| Lilu                   | 1.5.3          |
 | NoTouchID              | 1.0.4          |
-| NVMeFix                | 1.0.5          |
+| NVMeFix                | 1.0.7          |
 | RTCMemoryFixup         | 1.0.8          |
-| VirtualSMC             | 1.2.1          |
+| VirtualSMC             | 1.2.3          |
 | VoltageShift           | Disabled, 1.22 |
-| VoodooPS2Controller    | 2.2.2          |
-| VoodooRMI              | 1.3.2          |
+| VoodooPS2Controller    | 2.2.3          |
+| VoodooRMI              | 1.3.3          |
 | VoodooSMBus            | 3.0.0          |
-| WhateverGreen          | 1.4.8          |
+| WhateverGreen          | 1.4.9          |
 | YogaSMC                | 1.4.3          |
 
 </details>
