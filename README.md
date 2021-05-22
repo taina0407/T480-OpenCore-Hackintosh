@@ -1,6 +1,8 @@
 # T480-OpenCore-Hackintosh
 
-**Status: Work In Progress | Stable**
+**Status: Unmaintained
+Sorry, I no longer use macOS on my T480. If a maintained fork is formed, it will be listed here
+
 
 <img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
