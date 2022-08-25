@@ -4,6 +4,8 @@
 
 Sorry, I no longer use macOS on my T480. If a maintained fork is formed, it will be listed here
 
+🚨 **UPDATE**: Maintained repo by [@valnoxy](https://github.com/valnoxy) https://github.com/valnoxy/t480-oc
+
 
 <img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
